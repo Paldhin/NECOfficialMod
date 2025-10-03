@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "nec:stelian_gem"
+    }
+  },
+  "result": {
+    "item": "nec:factumblock",
+    "count": 1
+  }
+}

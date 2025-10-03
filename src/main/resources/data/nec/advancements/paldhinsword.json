@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "nec:diego_sword"
+    },
+    "title": {
+      "translate": "advancements.paldhinsword.title"
+    },
+    "description": {
+      "translate": "advancements.paldhinsword.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paldhinsword_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nec:diego_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 19
+  },
+  "parent": "nec:nec"
+}

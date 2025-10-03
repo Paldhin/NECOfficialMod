@@ -1,0 +1,614 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiegoSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diego_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/diego_sword.json",
+          "src/main/java/net/mcreator/nec/item/DiegoSwordItem.java"
+        ]
+      },
+      "path": "~/items/swords"
+    },
+    {
+      "name": "IvanSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivan_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/item/IvanSwordItem.java",
+          "src/main/resources/assets/nec/models/item/ivan_sword.json"
+        ]
+      },
+      "path": "~/items/swords"
+    },
+    {
+      "name": "StelianSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stelian_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/item/StelianSwordItem.java",
+          "src/main/resources/assets/nec/models/item/stelian_sword.json"
+        ]
+      },
+      "path": "~/items/swords"
+    },
+    {
+      "name": "AlejandroSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejandro_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/alejandro_sword.json",
+          "src/main/java/net/mcreator/nec/item/AlejandroSwordItem.java"
+        ]
+      },
+      "path": "~/items/swords"
+    },
+    {
+      "name": "Eldisco",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldisco",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/item/EldiscoItem.java",
+          "src/main/resources/assets/nec/models/item/eldisco.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Diegoswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diegoswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/diegoswordcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Ivanswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivanswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/ivanswordcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Stelianswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stelianswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/stelianswordcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Alejjannswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjannswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/alejjannswordcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "PaldhinGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paldhin_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/paldhin_gem.json",
+          "src/main/java/net/mcreator/nec/item/PaldhinGemItem.java"
+        ]
+      },
+      "path": "~/items/gems"
+    },
+    {
+      "name": "PaldhinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paldhin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/block/paldhin_ore.json",
+          "src/main/java/net/mcreator/nec/block/PaldhinOreBlock.java",
+          "src/main/resources/data/nec/worldgen/placed_feature/paldhin_ore.json",
+          "src/main/resources/data/nec/forge/biome_modifier/paldhin_ore_biome_modifier.json",
+          "src/main/resources/assets/nec/models/item/paldhin_ore.json",
+          "src/main/resources/assets/nec/blockstates/paldhin_ore.json",
+          "src/main/resources/data/nec/worldgen/configured_feature/paldhin_ore.json",
+          "src/main/resources/data/nec/loot_tables/blocks/paldhin_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AlejjannGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjann_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/alejjann_gem.json",
+          "src/main/java/net/mcreator/nec/item/AlejjannGemItem.java"
+        ]
+      },
+      "path": "~/items/gems"
+    },
+    {
+      "name": "KenobiGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenobi_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/item/KenobiGemItem.java",
+          "src/main/resources/assets/nec/models/item/kenobi_gem.json"
+        ]
+      },
+      "path": "~/items/gems"
+    },
+    {
+      "name": "StelianGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stelian_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/item/StelianGemItem.java",
+          "src/main/resources/assets/nec/models/item/stelian_gem.json"
+        ]
+      },
+      "path": "~/items/gems"
+    },
+    {
+      "name": "KenobiOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenobi_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/block/KenobiOreBlock.java",
+          "src/main/resources/data/nec/loot_tables/blocks/kenobi_ore.json",
+          "src/main/resources/assets/nec/models/item/kenobi_ore.json",
+          "src/main/resources/assets/nec/models/block/kenobi_ore.json",
+          "src/main/resources/assets/nec/blockstates/kenobi_ore.json",
+          "src/main/resources/data/nec/worldgen/placed_feature/kenobi_ore.json",
+          "src/main/resources/data/nec/worldgen/configured_feature/kenobi_ore.json",
+          "src/main/resources/data/nec/forge/biome_modifier/kenobi_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AlejjannOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjann_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/worldgen/placed_feature/alejjann_ore.json",
+          "src/main/resources/data/nec/forge/biome_modifier/alejjann_ore_biome_modifier.json",
+          "src/main/resources/assets/nec/blockstates/alejjann_ore.json",
+          "src/main/java/net/mcreator/nec/block/AlejjannOreBlock.java",
+          "src/main/resources/data/nec/loot_tables/blocks/alejjann_ore.json",
+          "src/main/resources/data/nec/worldgen/configured_feature/alejjann_ore.json",
+          "src/main/resources/assets/nec/models/item/alejjann_ore.json",
+          "src/main/resources/assets/nec/models/block/alejjann_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "FactumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factum_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/block/FactumOreBlock.java",
+          "src/main/resources/data/nec/worldgen/configured_feature/factum_ore.json",
+          "src/main/resources/data/nec/forge/biome_modifier/factum_ore_biome_modifier.json",
+          "src/main/resources/data/nec/worldgen/placed_feature/factum_ore.json",
+          "src/main/resources/assets/nec/models/item/factum_ore.json",
+          "src/main/resources/assets/nec/blockstates/factum_ore.json",
+          "src/main/resources/assets/nec/models/block/factum_ore.json",
+          "src/main/resources/data/nec/loot_tables/blocks/factum_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Erdiscocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erdiscocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/erdiscocraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Paldhinsword",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paldhinsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/paldhinsword.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Alejjannsword",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjannsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/alejjannsword.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Kenobisword",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenobisword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/kenobisword.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Factumsword",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factumsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/factumsword.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "EldiscoAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldisco_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/eldisco_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "NECItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nec_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/nec_item.json",
+          "src/main/java/net/mcreator/nec/item/NECItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NEC",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/advancements/nec.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Paldhinblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paldhinblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/paldhinblock.json",
+          "src/main/resources/assets/nec/models/block/paldhinblock.json",
+          "src/main/resources/data/nec/loot_tables/blocks/paldhinblock.json",
+          "src/main/resources/assets/nec/blockstates/paldhinblock.json",
+          "src/main/java/net/mcreator/nec/block/PaldhinblockBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Kenobiblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenobiblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/loot_tables/blocks/kenobiblock.json",
+          "src/main/resources/assets/nec/blockstates/kenobiblock.json",
+          "src/main/java/net/mcreator/nec/block/KenobiblockBlock.java",
+          "src/main/resources/assets/nec/models/item/kenobiblock.json",
+          "src/main/resources/assets/nec/models/block/kenobiblock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Alejjannblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjannblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nec/models/item/alejjannblock.json",
+          "src/main/java/net/mcreator/nec/block/AlejjannblockBlock.java",
+          "src/main/resources/data/nec/loot_tables/blocks/alejjannblock.json",
+          "src/main/resources/assets/nec/blockstates/alejjannblock.json",
+          "src/main/resources/assets/nec/models/block/alejjannblock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Factumblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factumblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nec/block/FactumblockBlock.java",
+          "src/main/resources/assets/nec/models/block/factumblock.json",
+          "src/main/resources/assets/nec/models/item/factumblock.json",
+          "src/main/resources/data/nec/loot_tables/blocks/factumblock.json",
+          "src/main/resources/assets/nec/blockstates/factumblock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Paldhinblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paldhinblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/paldhinblockcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Kenobiblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenobiblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/kenobiblockcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "Alejjannblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alejjannblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/alejjannblockcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    },
+    {
+      "name": "FactumBlockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factum_blockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nec/recipes/factum_blockcraft.json"
+        ]
+      },
+      "path": "~/recepies"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "eldisco",
+      "files": [
+        "crying_soul_remiques"
+      ],
+      "category": "record",
+      "subtitle": "Crying Soul"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:FactumOre",
+      "~CUSTOM:AlejjannOre",
+      "~CUSTOM:KenobiOre",
+      "~CUSTOM:PaldhinOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Factumblock",
+      "~CUSTOM:Alejjannblock",
+      "~CUSTOM:Kenobiblock",
+      "~CUSTOM:Paldhinblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Factumblock",
+      "~CUSTOM:Alejjannblock",
+      "~CUSTOM:Kenobiblock",
+      "~CUSTOM:Paldhinblock",
+      "~CUSTOM:FactumOre",
+      "~CUSTOM:AlejjannOre",
+      "~CUSTOM:KenobiOre",
+      "~CUSTOM:PaldhinOre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AlejandroSword",
+      "~CUSTOM:StelianSword",
+      "~CUSTOM:IvanSword",
+      "~CUSTOM:DiegoSword"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Eldisco"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.paldhinsword.title": "Paldhin\u0027s Sword",
+      "item.nec.stelian_sword": "Factum\u0027s Sword",
+      "item.nec.eldisco": "El Disco",
+      "block.nec.kenobi_ore": "Kennobi\u0027s Ore",
+      "item.nec.kenobi_gem": "Kenobi\u0027s Gem",
+      "item.nec.nec_item": "NEC",
+      "item.nec.alejjann_gem": "Alejjann\u0027s Gem",
+      "advancements.kenobisword.title": "Kenobi\u0027s Sword",
+      "block.nec.paldhinblock": "Paldhin Gem Block",
+      "item.nec.ivan_sword": "Kenobi\u0027s Sword",
+      "subtitles.eldisco": "Crying Soul",
+      "block.nec.alejjann_ore": "Alejjann\u0027s Ore",
+      "advancements.kenobisword.descr": "Has creado la espada de Paldhin! Qué prefieres?",
+      "advancements.alejjannsword.descr": "Has creado la espada de Alejjann! Toca fluir!",
+      "advancements.nec.title": "NombreEspecificoCraft!",
+      "advancements.nec.descr": "Bienvenido a NEC!",
+      "item.nec.stelian_gem": "Factum\u0027s Gem",
+      "advancements.alejjannsword.title": "Alejjann\u0027s Sword",
+      "block.nec.kenobiblock": "Kenobi Gem Block",
+      "advancements.factumsword.descr": "Has creado la espada de Factum! Dónde está el cobre?",
+      "item.nec.paldhin_gem": "Paldhin\u0027s Gem",
+      "advancements.eldisco_adv.descr": "Has creado el disco... ¿Qué significará esto?",
+      "item.nec.eldisco.desc": "Crying Soul - Qwertygiy",
+      "block.nec.factum_ore": "Factum\u0027s Ore",
+      "advancements.eldisco_adv.title": "El Disco...",
+      "item.nec.alejandro_sword": "Alejjann\u0027s Sword",
+      "block.nec.factumblock": "Factum Gem Block",
+      "block.nec.alejjannblock": "Alejjann Gem Block",
+      "advancements.paldhinsword.descr": "Has creado la espada de Paldhin! Que monada!",
+      "block.nec.paldhin_ore": "Paldhin\u0027s Ore",
+      "advancements.factumsword.title": "Factum\u0027s Sword",
+      "item.nec.diego_sword": "Paldhin\u0027s Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "swords",
+            "children": []
+          },
+          {
+            "name": "gems",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "recepies",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nec",
+    "modName": "nombreEspecificoCraft",
+    "version": "1.0.0",
+    "author": "diego, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.nec"
+  },
+  "mcreatorVersion": 202500113416
+}

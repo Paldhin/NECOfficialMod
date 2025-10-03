@@ -1,0 +1,11 @@
+{
+  "eldisco": {
+    "subtitle": "subtitles.eldisco",
+    "sounds": [
+      {
+        "name": "nec:crying_soul_remiques",
+        "stream": true
+      }
+    ]
+  }
+}

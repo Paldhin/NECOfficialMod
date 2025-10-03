@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nec:factum_ore",
+    "nec:alejjann_ore",
+    "nec:kenobi_ore",
+    "nec:paldhin_ore"
+  ]
+}

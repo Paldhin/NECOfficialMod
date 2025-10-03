@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AlejjannGem"
+      },
+      {
+        "value": "CUSTOM:AlejjannGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AlejjannGem"
+      },
+      {
+        "value": "CUSTOM:AlejjannGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Alejjannblock"
+    },
+    "name": "alejjannblockcraft",
+    "namespace": "mod"
+  }
+}

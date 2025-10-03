@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/factumore",
+    "up": "nec:block/factumore",
+    "north": "nec:block/factumore",
+    "east": "nec:block/factumore",
+    "south": "nec:block/factumore",
+    "west": "nec:block/factumore",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

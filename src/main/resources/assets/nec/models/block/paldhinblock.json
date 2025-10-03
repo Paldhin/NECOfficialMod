@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/paldhinblock",
+    "up": "nec:block/paldhinblock",
+    "north": "nec:block/paldhinblock",
+    "east": "nec:block/paldhinblock",
+    "south": "nec:block/paldhinblock",
+    "west": "nec:block/paldhinblock",
+    "particle": "nec:block/paldhingemparticle"
+  },
+  "render_type": "solid"
+}

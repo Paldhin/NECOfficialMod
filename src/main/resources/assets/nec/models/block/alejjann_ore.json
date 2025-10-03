@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/alejjannore",
+    "up": "nec:block/alejjannore",
+    "north": "nec:block/alejjannore",
+    "east": "nec:block/alejjannore",
+    "south": "nec:block/alejjannore",
+    "west": "nec:block/alejjannore",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

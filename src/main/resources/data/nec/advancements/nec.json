@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "nec:nec_item"
+    },
+    "title": {
+      "translate": "advancements.nec.title"
+    },
+    "description": {
+      "translate": "advancements.nec.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nec_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nec:nec_item"
+            ],
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

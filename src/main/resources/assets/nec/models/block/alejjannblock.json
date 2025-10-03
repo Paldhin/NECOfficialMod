@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/allejjannblock",
+    "up": "nec:block/allejjannblock",
+    "north": "nec:block/allejjannblock",
+    "east": "nec:block/allejjannblock",
+    "south": "nec:block/allejjannblock",
+    "west": "nec:block/allejjannblock",
+    "particle": "nec:block/alejjanngemparticle"
+  },
+  "render_type": "solid"
+}

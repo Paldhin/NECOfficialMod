@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/kenobiore",
+    "up": "nec:block/kenobiore",
+    "north": "nec:block/kenobiore",
+    "east": "nec:block/kenobiore",
+    "south": "nec:block/kenobiore",
+    "west": "nec:block/kenobiore",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

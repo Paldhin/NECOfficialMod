@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/kenobiblock",
+    "up": "nec:block/kenobiblock",
+    "north": "nec:block/kenobiblock",
+    "east": "nec:block/kenobiblock",
+    "south": "nec:block/kenobiblock",
+    "west": "nec:block/kenobiblock",
+    "particle": "nec:block/kenobiblock"
+  },
+  "render_type": "solid"
+}

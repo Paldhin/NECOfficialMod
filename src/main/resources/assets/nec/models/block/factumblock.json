@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/factumblock",
+    "up": "nec:block/factumblock",
+    "north": "nec:block/factumblock",
+    "east": "nec:block/factumblock",
+    "south": "nec:block/factumblock",
+    "west": "nec:block/factumblock",
+    "particle": "nec:block/factumgemparticle"
+  },
+  "render_type": "solid"
+}

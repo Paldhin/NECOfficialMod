@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "nec:paldhin_gem"
+    },
+    "b": {
+      "item": "nec:alejjann_gem"
+    },
+    "c": {
+      "item": "minecraft:music_disc_cat"
+    },
+    "d": {
+      "item": "nec:stelian_gem"
+    },
+    "e": {
+      "item": "nec:kenobi_gem"
+    }
+  },
+  "result": {
+    "item": "nec:eldisco",
+    "count": 1
+  }
+}

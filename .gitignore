@@ -1,0 +1,44 @@
+# ============================
+# 🌱 Java / Gradle
+# ============================
+.gradle/
+build/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs comunes
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.class
+*.log
+
+# ============================
+# 🧱 Archivos específicos de MCreator
+# ============================
+# Configuraciones internas de MCreator que no son necesarias para compilar el mod
+.mcreator/
+usercache.json
+run/
+
+# Archivos temporales y de caché
+*.cache
+*.tmp
+
+# Backups automáticos de MCreator
+backups/
+
+# ============================
+# 📝 Otros opcionales
+# ============================
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos comprimidos o exportados
+*.zip
+*.jar
+*.rar

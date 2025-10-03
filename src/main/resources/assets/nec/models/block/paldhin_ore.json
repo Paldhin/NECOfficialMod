@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nec:block/paldhin_ore",
+    "up": "nec:block/paldhin_ore",
+    "north": "nec:block/paldhin_ore",
+    "east": "nec:block/paldhin_ore",
+    "south": "nec:block/paldhin_ore",
+    "west": "nec:block/paldhin_ore",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

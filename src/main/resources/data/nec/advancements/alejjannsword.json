@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "nec:alejandro_sword"
+    },
+    "title": {
+      "translate": "advancements.alejjannsword.title"
+    },
+    "description": {
+      "translate": "advancements.alejjannsword.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alejjannsword_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nec:alejandro_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 19
+  },
+  "parent": "nec:nec"
+}
